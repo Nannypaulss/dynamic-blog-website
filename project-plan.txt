@@ -1,0 +1,19 @@
+Pages:
+Index.html: homepage, lists posts.
+new-post.html: create post
+
+Storage: 
+Use localStorage
+key: blog posts
+Each post: id, title content image 
+
+Features:
+Create a post.
+Read post
+Update post
+Delete a post.
+
+Git:
+Use feature branches
+Make commits
+merge by using pull requests
