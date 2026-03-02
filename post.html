@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Post</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Dynamic Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="new-post.html">New Post</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Post</h2>
+
+    <div class="post-card">
+      <h3 id="titleText"></h3>
+      <p id="contentText"></p>
+
+      <button id="editBtn" type="button">Edit</button>
+      <button id="deleteBtn" type="button">Delete</button>
+    </div>
+
+    <div class="post-card" id="editBox" style="display:none;">
+      <h3>Edit Post</h3>
+
+      <label>Title</label><br>
+      <input id="titleInput" type="text"><br><br>
+
+      <label>Content</label><br>
+      <textarea id="contentInput" rows="5"></textarea><br><br>
+
+      <button id="saveBtn" type="button">Save</button>
+      <button id="cancelBtn" type="button">Cancel</button>
+    </div>
+  </main>
+
+  <script src="post.js"></script>
+</body>
+</html>
