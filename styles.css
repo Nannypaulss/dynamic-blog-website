@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;justify-content: space-between;
+    background-color: #ffffff11;
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    color: #000000;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #b97a7a;
+}
+
+main {
+    padding: 50px;
+    padding-left: 660px;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+.post-card {
+    background-color: #1b1b1b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;    
+
+}
+
+.post-card h3 {
+    margin: 0 0 10px;
+    color: #ff4d4d;
+}
+
+h2 {
+    color: #000000;
+}
+
+header {
+    background-color: #ffffff;
+}
+nav a {
+    color: #0435fa;
+    text-decoration: none;
+    margin-left: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #347ece;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff4d4d;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff4d4d;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #111;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
